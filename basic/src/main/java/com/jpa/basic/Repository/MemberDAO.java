@@ -11,7 +11,7 @@ import java.util.Optional;
 
 @Repository
 public class MemberDAO {
-    @PersistenceContext
+   @PersistenceContext
     private EntityManager entityManager;
 
     public Member save(Member member){
@@ -23,4 +23,7 @@ public class MemberDAO {
         return Optional.ofNullable( entityManager.find( Member.class, id ));
     }
 
+    public void delete(Member member){
+        entityManager.remove(member);
+    }
 }

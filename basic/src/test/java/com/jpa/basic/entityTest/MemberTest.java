@@ -26,14 +26,10 @@ public class MemberTest {
 
 
     @Test
-    public void findMemberAllTest(){
-        log.info(memberDAO.findAll().toString());
-    }
-    @Test
     @Transactional
     @Rollback(false) //기본적으로 rollback은 true값이기에 통과하더라도 rollback되어 쿼리문도 안나가고 db에 반영이 안된다.
     public void entityTest(){
-//        Member member1 = new Member();
+        Member member1 = new Member();
 //        member1.setMemberName("홍윤기");
 //        member1.setMemberEmail("ricky0130@naver.com");
 //        member1.setMemberAge(20);
