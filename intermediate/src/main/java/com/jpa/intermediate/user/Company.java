@@ -1,4 +1,15 @@
 package com.jpa.intermediate.user;
 
-public class Company {
+import lombok.Getter;
+import lombok.Setter;
+import lombok.ToString;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "TBL_COMPANY")
+@Getter @Setter @ToString
+public class Company extends User{
+    private String businessNumber;
 }

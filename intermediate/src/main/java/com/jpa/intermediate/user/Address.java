@@ -2,14 +2,14 @@ package com.jpa.intermediate.user;
 
 import lombok.Getter;
 import lombok.Setter;
-import lombok.ToString;
 
-import javax.persistence.Entity;
-import javax.persistence.Table;
+import javax.persistence.Embeddable;
 
-@Entity
-@Table(name="TBL_MEMBER")
-@Getter @Setter @ToString
+@Embeddable
+@Getter @Setter
 public class Address {
 
+    private String address;
+    private String addressDetail;
+    private String postcode;
 }
