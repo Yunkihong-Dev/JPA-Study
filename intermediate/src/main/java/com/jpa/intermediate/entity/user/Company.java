@@ -1,4 +1,4 @@
-package com.jpa.intermediate.user;
+package com.jpa.intermediate.entity.user;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -9,7 +9,7 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name = "TBL_COMPANY")
-@Getter @Setter @ToString
+@Getter @Setter @ToString(callSuper = true)
 public class Company extends User{
     private String businessNumber;
 }

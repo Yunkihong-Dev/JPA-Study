@@ -23,7 +23,7 @@ public class Owner {
     @Column(unique = true)
     private String ownerPhone;
 
-    @OneToMany (fetch = FetchType. LAZY, cascade = {CascadeType.PERSIST, CascadeType.REMOVE})
-    @JoinColumn (name = "OWNER ID")
-    private List<Pet> pets = new ArrayList<>();
+//    @OneToMany (fetch = FetchType. LAZY, cascade = {CascadeType.PERSIST, CascadeType.REMOVE})
+//    @JoinColumn (name = "OWNER ID")
+//    private List<Pet> pets = new ArrayList<>();
 }

@@ -1,5 +1,6 @@
-package com.jpa.intermediate.user;
+package com.jpa.intermediate.entity.user;
 
+import com.jpa.intermediate.aduting.Period;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.Setter;
@@ -11,7 +12,7 @@ import javax.persistence.*;
 @Getter @Setter @ToString
 @Table(name = "TBL_USER")
 @Inheritance(strategy = InheritanceType.TABLE_PER_CLASS)
-public class User {
+public abstract class User extends Period { // abstract는 상속관계에서 부모 엔티티를 단독으로 조회하지 말라는 뜻
     @Id @GeneratedValue
     @EqualsAndHashCode.Include
     private Long id;

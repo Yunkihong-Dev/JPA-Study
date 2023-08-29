@@ -1,6 +1,6 @@
 package com.jpa.intermediate.repository;
 
-import com.jpa.intermediate.user.Company;
+import com.jpa.intermediate.entity.user.Company;
 import org.springframework.stereotype.Repository;
 
 import javax.persistence.EntityManager;

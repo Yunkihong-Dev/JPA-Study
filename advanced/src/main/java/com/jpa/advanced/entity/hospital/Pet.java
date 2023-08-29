@@ -23,7 +23,7 @@ public class Pet {
     @NotNull private GenderType genderType;
     @NotNull private String petDisease;
 
-//    @ManyToOne(fetch = FetchType.LAZY, cascade = CascadeType.PERSIST)
-//    @JoinColumn(name = "OWNER_ID")
-//    private Owner owner;
+    @ManyToOne(fetch = FetchType.LAZY, cascade = CascadeType.PERSIST)
+    @JoinColumn(name = "OWNER_ID")
+    private Owner owner;
 }

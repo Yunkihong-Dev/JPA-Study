@@ -1,4 +1,4 @@
-package com.jpa.intermediate.user;
+package com.jpa.intermediate.entity.user;
 
 import lombok.Getter;
 import lombok.Setter;

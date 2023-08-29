@@ -11,13 +11,17 @@ import javax.persistence.DiscriminatorValue;
 import javax.persistence.Entity;
 import javax.persistence.Table;
 
-@Entity @ToString
+@Entity
 @Table(name = "TBL_PLANNER")
 @DynamicInsert
 @DiscriminatorValue("pln")
-@Getter @Setter
+@Getter @Setter @ToString(callSuper = true)
 public class Planner extends Employee{
     private int plannerOaLevel;
     @ColumnDefault(value = "0")
     @NotNull private Integer clientCount;
 }
+
+
+
+

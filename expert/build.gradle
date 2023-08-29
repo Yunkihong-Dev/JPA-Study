@@ -28,6 +28,7 @@ dependencies {
 	testImplementation 'io.projectreactor:reactor-test'
 	testImplementation 'org.projectlombok:lombok'
 	testAnnotationProcessor 'org.projectlombok:lombok'
+	implementation 'org.hibernate:hibernate-validator:7.0.5.Final'
 }
 
 tasks.named('test') {

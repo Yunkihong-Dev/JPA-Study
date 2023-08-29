@@ -1,4 +1,4 @@
-package com.jpa.intermediate.user;
+package com.jpa.intermediate.entity.user;
 
 
 import com.jpa.intermediate.repository.CompanyDAO;

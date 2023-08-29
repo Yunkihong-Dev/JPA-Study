@@ -10,29 +10,30 @@ import org.hibernate.annotations.SQLDelete;
 import org.hibernate.annotations.Where;
 
 import javax.persistence.*;
+import javax.validation.constraints.NotNull;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
 
 @Entity
 @Table(name = "TBL_CAR")
-@Getter @Setter @ToString
+@Getter @Setter @ToString(callSuper = true, exclude = {"carRegistrations"})
 // 사용자 정의 SQL 삭제 구문으로 소프트 삭제를 수행합니다.
-@SQLDelete(sql = "update tbl_car set deleted = true where id = ?")
+@SQLDelete(sql = "UPDATE TBL_CAR SET DELETED = 1 WHERE ID = ?")
 // 하이버네이트 필터를 사용하여 삭제된 레코드를 제외합니다.
-@Where(clause = "deleted = false")
+@Where(clause = "DELETED = 0")
 public class Car extends Period {
     @Id
     @GeneratedValue
     @EqualsAndHashCode.Include
     private Long id;
-    private String carName;
+    @NotNull private String carName;
 
     // 열거형 데이터를 문자열로 저장합니다.
     @Enumerated(EnumType.STRING)
     private CarBrand carBrand;
-    private Long carPrice;
-    private LocalDateTime carReleaseDate;
+    @NotNull private Long carPrice;
+    @NotNull private LocalDateTime carReleaseDate;
 
     // 레코드가 삭제되었는지 여부를 나타내는 플래그입니다.
     private boolean deleted = Boolean.FALSE;

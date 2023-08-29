@@ -8,13 +8,13 @@ spring:
   datasource:
     driver-class-name: oracle.jdbc.OracleDriver
     url: jdbc:oracle:thin:@localhost:1521:XE
-    username: system
-    password: pass
+    username: scott
+    password: tiger
 
   #jpa
   jpa:
     hibernate:
-      ddl-auto: create
+      ddl-auto: update
 
     #jpa format
     properties:
