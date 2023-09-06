@@ -13,7 +13,7 @@ public interface QuestionRepository extends JpaRepository<Question, Long> {
 
 //    attributePaths 에는 존재하는 필드명으로 작성해야 한다.
 //    일대다관계에서는 join 사용 시, List 연관객제에 자동으로 매핑되지 않는다.
-//    LAZY 때문에, List 연관객제를 불러올 때 쿼리가 한 번 더 발생하게 된다.이
+//    LAZY 때문에, List 연관객제를 불러올 때 쿼리가 한 번 더 발생하게 된다.
 
 //    q와 q. answers로 join이 실행되지만 List로 매핑 안됨
 //    q에 q.answers 가 3개라면, 중복된 q가 3개 나옴

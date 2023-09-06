@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleag.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<!--<h1 th:text="${foundProduct.productName}"></h1>-->
+<!--<h1 th:text="${foundProduct.productPrice}"></h1>-->
+<!--<h1 th:text="${foundProduct.productStock}"></h1>-->
+</body>
+<script th:inline="javascript">
+    console.log([[${foundProduct}]]);
+</script>
+</html>

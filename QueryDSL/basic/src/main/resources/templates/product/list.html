@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleag.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>List</title>
+    <style>
+        div{
+            margin: 0 auto;
+        }
+        table{
+            margin: 0 auto;
+        }
+        .none{
+            display: none;
+        }
+        ul{
+            display: flex;
+            list-style: none;
+        }
+        ul> li{
+            margin-right:10px ;
+        }
+    </style>
+</head>
+<body>
+    <div th:if="${!pagination.content.isEmpty()}">
+        <table border="1">
+            <tr th:each="product : ${pagination.content}">
+                <td th:text="${product.id}"></td>
+                <td th:text="${product.productName}"></td>
+                <td th:text="${product.productPrice}"></td>
+                <td th:text="${product.productStock}"></td>
+                <td><a th:href="@{/product/detail(id=${product.id})}">상세 정보</a></td>
+            </tr>
+        </table>
+        <ul th:with="
+                page = ${pagination.number + 1},
+                nowPage = ${pagination.number + 1},
+                pageSize = ${pagination.size},
+                totalPages = ${pagination.totalPages},
+                endPage = ${((nowPage -1) / pageSize + 1)*pageSize},
+                startPage = ${endPage - pageSize + 1},
+                realEndPage = ${endPage<totalPages ? endPage : totalPages},
+                first = ${pagination.first},
+                last = ${pagination.last}
+             ">
+                <li th:classappend="${startPage == 1} ? 'none'" class="prev">
+                    <a th:href="@{/product/list(page=${startPage-2})}" th:text="더이전"></a>
+                </li>
+                <li th:classappend="${first} ? 'none'" class="prev">
+                    <a th:href="@{/product/list(page=${nowPage-2})}" th:text="이전"></a>
+                </li>
+                <li th:each = "page : ${#numbers.sequence(startPage, realEndPage)}">
+                    <a th:if="${nowPage != page}" th:href="@{/product/list(page=${page-1})}" th:text="${page}"></a>
+                    <span style="color: #ff0000" th:unless="${nowPage != page}" th:text="${page}"></span>
+                </li>
+                <li th:classappend="${last}? 'none'" class="next">
+                    <a th:href="@{/product/list(page=${nowPage})}" th:text="다음"></a>
+                </li>
+                <li th:classappend="${endPage >= totalPages} ? 'none'" class="prev">
+                    <a th:href="@{/product/list(page=${endPage})}"th:text="다다음"></a>
+                </li>
+            </ul>
+    </div>
+    <div th:unless="${!pagination.isEmpty()}">
+        게시글이 없습니다.
+    </div>
+    <div>
+        <a th:href="@{/product/write}">상품추가</a>
+    </div>
+</body>
+<script th:inline="javascript">
+    console.log([[${pagination}]]);
+</script>
+
+</html>

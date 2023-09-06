@@ -1,5 +1,6 @@
 package codingTest;
 
+import java.lang.reflect.Array;
 import java.util.*;
 
 public class CodingTest {
@@ -83,6 +84,82 @@ public class CodingTest {
 //        int n = (int)Math.floor(Math.random()*100);
 //        System.out.println(n);
 //        System.out.println(Arrays.toString(solution(n)));
+
+//            String[] alphabets = {"abcd","efgh"};
+//            for (String as: alphabets){
+//               System.out.println(as);
+//            }
+//        Scanner in = new Scanner(System.in);
+//        int a = in.nextInt();
+//        int b = in.nextInt();
+//
+//
+//        int num = 0;
+//        for (int i= a; i<=b;i++){
+//            if((i+1)%2==0){
+//                num =+ i;
+//            }
+//        }
+//        System.out.println(num);
+
+//        Scanner in = new Scanner(System.in);
+//        List<Integer> nums= new ArrayList<>();
+//        int num = in.nextInt();
+//
+//        for (int j=0;j<num;j++){
+//            for (int i = 0; i < num - 1; i++) {
+//                nums.add(in.nextInt());
+//            }
+//            nums.add(Integer.parseInt(in.nextLine()));
+//        }
+//        int num2 = in.nextInt();
+//        int num3 = in.nextInt();
+//        Scanner in = new Scanner(System.in);
+//        int n = in.nextInt();
+//        for (int i=1;i<=n;i++){
+//            for (int j = 1; j <= n; j++) {
+//                System.out.print(j + " ");
+//            }
+//            System.out.println();
+//        }
+//        Scanner in = new Scanner(System.in);
+//        int startNum = in.nextInt();
+//        int[] arr = new int[startNum];
+//        List<Integer> holsu = new ArrayList<>();
+//        List<Integer> jjacksoo = new ArrayList<>();
+//        for (int i = 0; i < startNum; i++) {
+//            arr[i] = in.nextInt();
+//        }
+//        for (int a : arr ) {
+//            if (a%2==0){
+//                jjacksoo.add(a);
+//            }
+//            if ((a+1)%2==0){
+//                holsu.add(a);
+//            }
+//        }
+//        jjacksoo.addAll(holsu);
+//        for (int i:
+//             jjacksoo) {
+//            System.out.print(i + " ");
+//        }
+
+
+        Scanner sc= new Scanner(System.in);
+
+        int n =4;
+        int[][] arr= new int[n][n];
+        int[] sumArr = new int[n];
+        for (int i = 0; i <n ; i++) {
+            for (int j = 0; j <n ; j++) {
+                arr[i][j] = sc.nextInt();
+                sumArr[i] += arr[i][j];
+            }
+        }
+
+        for (int i = 0; i < n; i++) {
+            System.out.println(sumArr[i]);
+        }
 
 
 
