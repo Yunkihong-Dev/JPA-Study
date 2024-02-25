@@ -1,7 +1,7 @@
 
 #server
 server:
-  port: 10000
+  port: 10001
 
 #jdbc
 spring:
@@ -10,7 +10,10 @@ spring:
     url: jdbc:oracle:thin:@localhost:1521:XE
     username: scott
     password: tiger
-
+  mvc:
+    hiddenmethod:
+      filter:
+        enabled: true
   #jpa
   jpa:
     hibernate:

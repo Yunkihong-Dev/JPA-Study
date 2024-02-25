@@ -21,9 +21,9 @@ public class ProductRepositoryTests {
 
     @Test
     public void saveTest(){
-        for (int i=100; i<200; i++){
+        for (int i=0; i<200; i++){
         Product product = new Product();
-        product.setProductName("마우스"+(i+1)+"번째 마우");
+        product.setProductName((i+1)+"번째 마우스");
         product.setProductPrice(45000);
         product. setProductStock(55+i);
         productRepository.save(product);
@@ -40,15 +40,15 @@ public class ProductRepositoryTests {
         log.info(productsWithPage.getContent().toString());
     }
 
-    @Test
-    public void updateByIdTest(){
-        Optional<Product> foundproduct = productRepository.findById(107L);
-        foundproduct.ifPresent(product -> {
-            product.setProductName("수정된 마우스");
-            productRepository.updateById(product);
-
-        });
-    }
+//    @Test
+//    public void updateByIdTest(){
+//        Optional<Product> foundproduct = productRepository.findById(107L);
+//        foundproduct.ifPresent(product -> {
+//            product.setProductName("수정된 마우스");
+//            productRepository.updateById(product);
+//
+//        });
+//    }
 
     @Test
     public void updatePricesTest(){

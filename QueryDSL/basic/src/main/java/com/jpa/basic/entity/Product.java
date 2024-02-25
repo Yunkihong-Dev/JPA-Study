@@ -13,8 +13,7 @@ import javax.persistence.Table;
 //@NoArgsConstructor(access = AccessLevel.PROTECTED)
 @NoArgsConstructor
 public class Product {
-    @Id
-    @GeneratedValue
+    @Id @GeneratedValue
     @EqualsAndHashCode.Include
     private Long id;
     private String productName;

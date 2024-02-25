@@ -24,7 +24,7 @@ public class Question {
     private List<Answer> answers = new ArrayList<>();
 
     public void setAnswer(Answer answer){
-        if (answer.getQuestion() != this) {
+        if (answer.getQuestion () != this) {
             answer.setQuestion(this);
         }
         this.answers.add(answer);

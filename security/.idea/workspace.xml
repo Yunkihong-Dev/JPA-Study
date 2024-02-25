@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="85c01d30-28e3-4dee-8577-06e8c35faa03" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../QueryDSL/basic/src/main/resources/templates/product/list-async.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QueryDSL/basic/src/main/resources/templates/product/update.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QueryDSL/intermediate/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QueryDSL/intermediate/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QueryDSL/intermediate/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QueryDSL/intermediate/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QueryDSL/intermediate/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QueryDSL/intermediate/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QueryDSL/intermediate/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QueryDSL/intermediate/src/main/java/com/jpa/intermediate/IntermediateApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QueryDSL/intermediate/src/main/java/com/jpa/intermediate/config/QueryDSLConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QueryDSL/intermediate/src/main/java/com/jpa/intermediate/entity/Cart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QueryDSL/intermediate/src/main/java/com/jpa/intermediate/entity/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QueryDSL/intermediate/src/main/java/com/jpa/intermediate/entity/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QueryDSL/intermediate/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QueryDSL/intermediate/src/test/java/com/jpa/intermediate/IntermediateApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysecurity/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysecurity/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysecurity/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysecurity/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysecurity/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysecurity/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysecurity/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysecurity/src/main/java/com/app/mysecurity/MysecurityApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysecurity/src/main/java/com/app/mysecurity/aduit/Period.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysecurity/src/main/java/com/app/mysecurity/config/QueryDslConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysecurity/src/main/java/com/app/mysecurity/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysecurity/src/main/java/com/app/mysecurity/config/WebMvcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysecurity/src/main/java/com/app/mysecurity/constant/ErrorCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysecurity/src/main/java/com/app/mysecurity/constant/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysecurity/src/main/java/com/app/mysecurity/domain/MemberDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysecurity/src/main/java/com/app/mysecurity/entity/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysecurity/src/main/java/com/app/mysecurity/handler/AccessDeniedHandlerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysecurity/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysecurity/src/main/resources/static/css/board/board.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysecurity/src/main/resources/static/css/member/info.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysecurity/src/main/resources/static/css/member/member.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysecurity/src/main/resources/static/css/member/term.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysecurity/src/main/resources/static/css/modal/modal.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysecurity/src/main/resources/static/images/back.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysecurity/src/main/resources/static/images/board_banner.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysecurity/src/main/resources/static/images/check.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysecurity/src/main/resources/static/images/check_all.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysecurity/src/main/resources/static/images/checked.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysecurity/src/main/resources/static/images/error.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysecurity/src/main/resources/static/images/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysecurity/src/main/resources/static/images/login_banner.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysecurity/src/main/resources/static/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysecurity/src/main/resources/static/images/next.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysecurity/src/main/resources/static/images/pass.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysecurity/src/main/resources/static/images/prev.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysecurity/src/main/resources/static/images/preview.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysecurity/src/main/resources/static/images/profile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysecurity/src/main/resources/static/images/reply_profile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysecurity/src/main/resources/static/images/search.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysecurity/src/main/resources/static/images/select.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysecurity/src/main/resources/static/images/term_detail.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysecurity/src/main/resources/static/images/warn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysecurity/src/main/resources/static/images/x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysecurity/src/main/resources/static/js/board/board.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysecurity/src/main/resources/static/js/member/check.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysecurity/src/main/resources/static/js/member/join.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysecurity/src/main/resources/static/js/member/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysecurity/src/main/resources/static/js/modal/modal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysecurity/src/main/resources/templates/board/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysecurity/src/main/resources/templates/board/read.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysecurity/src/main/resources/templates/board/update.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysecurity/src/main/resources/templates/board/write.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysecurity/src/main/resources/templates/error/401.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysecurity/src/main/resources/templates/error/403.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysecurity/src/main/resources/templates/error/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysecurity/src/main/resources/templates/fix/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysecurity/src/main/resources/templates/member/join.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysecurity/src/main/resources/templates/member/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysecurity/src/main/resources/templates/member/oauth-join.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysecurity/src/test/java/com/app/mysecurity/MysecurityApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QueryDSL/MyApplication/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QueryDSL/MyApplication/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QueryDSL/MyApplication/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QueryDSL/MyApplication/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QueryDSL/MyApplication/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QueryDSL/MyApplication/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QueryDSL/MyApplication/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QueryDSL/MyApplication/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QueryDSL/MyApplication/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QueryDSL/MyApplication/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QueryDSL/MyApplication/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QueryDSL/MyApplication/app/src/androidTest/java/com/example/myapplication/ExampleInstrumentedTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QueryDSL/MyApplication/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QueryDSL/MyApplication/app/src/main/java/com/example/myapplication/MainActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QueryDSL/MyApplication/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QueryDSL/MyApplication/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QueryDSL/MyApplication/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QueryDSL/MyApplication/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QueryDSL/MyApplication/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QueryDSL/MyApplication/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QueryDSL/MyApplication/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QueryDSL/MyApplication/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QueryDSL/MyApplication/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QueryDSL/MyApplication/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QueryDSL/MyApplication/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QueryDSL/MyApplication/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QueryDSL/MyApplication/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QueryDSL/MyApplication/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QueryDSL/MyApplication/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QueryDSL/MyApplication/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QueryDSL/MyApplication/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QueryDSL/MyApplication/app/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QueryDSL/MyApplication/app/src/test/java/com/example/myapplication/ExampleUnitTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QueryDSL/MyApplication/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QueryDSL/MyApplication/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QueryDSL/MyApplication/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QueryDSL/MyApplication/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QueryDSL/MyApplication/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QueryDSL/MyApplication/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QueryDSL/MyApplication/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QueryDSL/basic/src/main/java/com/jpa/basic/BasicApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../QueryDSL/basic/src/main/java/com/jpa/basic/BasicApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QueryDSL/basic/src/main/java/com/jpa/basic/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../QueryDSL/basic/src/main/java/com/jpa/basic/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QueryDSL/basic/src/main/java/com/jpa/basic/entity/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/../QueryDSL/basic/src/main/java/com/jpa/basic/entity/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QueryDSL/basic/src/main/java/com/jpa/basic/repository/ProductQueryDSL.java" beforeDir="false" afterPath="$PROJECT_DIR$/../QueryDSL/basic/src/main/java/com/jpa/basic/repository/ProductQueryDSL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QueryDSL/basic/src/main/java/com/jpa/basic/repository/ProductQueryDSLImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../QueryDSL/basic/src/main/java/com/jpa/basic/repository/ProductQueryDSLImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QueryDSL/basic/src/main/java/com/jpa/basic/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../QueryDSL/basic/src/main/java/com/jpa/basic/service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QueryDSL/basic/src/main/java/com/jpa/basic/service/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../QueryDSL/basic/src/main/java/com/jpa/basic/service/ProductServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QueryDSL/basic/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../QueryDSL/basic/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QueryDSL/basic/src/main/resources/templates/product/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/../QueryDSL/basic/src/main/resources/templates/product/detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QueryDSL/basic/src/main/resources/templates/product/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/../QueryDSL/basic/src/main/resources/templates/product/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QueryDSL/basic/src/test/java/com/jpa/basic/repository/ProductRepositoryTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../QueryDSL/basic/src/test/java/com/jpa/basic/repository/ProductRepositoryTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../advanced/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../advanced/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../expert/src/main/java/com/jpa/expert/entity/inquire/Question.java" beforeDir="false" afterPath="$PROJECT_DIR$/../expert/src/main/java/com/jpa/expert/entity/inquire/Question.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/out/production/untitled/codingTest/CodingTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/src/codingTest/CodingTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/untitled.iml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2bURFmqPi3TYmRoL5JQBjHMNySG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="show.unlinked.gradle.project.popup" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="SecurityApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="security.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.app.security.SecurityApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="85c01d30-28e3-4dee-8577-06e8c35faa03" name="Default Changelist" comment="" />
+      <created>1706267569141</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1706267569141</updated>
+      <workItem from="1706267577963" duration="12211000" />
+      <workItem from="1706505383765" duration="49000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="932" y="309" key="#SecurityApplication" timestamp="1706505391465">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="932" y="309" key="#SecurityApplication/2560.240.1920.1200/0.0.2560.1440/556.1465.1194.809/-1920.385.1920.1055@0.0.2560.1440" timestamp="1706505391465" />
+    <state x="1043" y="517" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1706269500760">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="1043" y="517" key="#com.intellij.fileTypes.FileTypeChooser/556.1465.1194.809/2560.240.1920.1200/0.0.2560.1440@0.0.2560.1440" timestamp="1706269500760" />
+    <state x="1093" y="440" key="#com.intellij.ide.util.MemberChooser" timestamp="1706273483847">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="1093" y="440" key="#com.intellij.ide.util.MemberChooser/556.1465.1194.809/2560.240.1920.1200/0.0.2560.1440@0.0.2560.1440" timestamp="1706273483847" />
+    <state width="2518" height="419" key="GridCell.Tab.0.bottom" timestamp="1706357756039">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2518" height="419" key="GridCell.Tab.0.bottom/556.1465.1194.809/2560.240.1920.1200/0.0.2560.1440@0.0.2560.1440" timestamp="1706357756039" />
+    <state width="2518" height="419" key="GridCell.Tab.0.center" timestamp="1706357756038">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2518" height="419" key="GridCell.Tab.0.center/556.1465.1194.809/2560.240.1920.1200/0.0.2560.1440@0.0.2560.1440" timestamp="1706357756038" />
+    <state width="2518" height="419" key="GridCell.Tab.0.left" timestamp="1706357756037">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2518" height="419" key="GridCell.Tab.0.left/556.1465.1194.809/2560.240.1920.1200/0.0.2560.1440@0.0.2560.1440" timestamp="1706357756037" />
+    <state width="2518" height="419" key="GridCell.Tab.0.right" timestamp="1706357756038">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2518" height="419" key="GridCell.Tab.0.right/556.1465.1194.809/2560.240.1920.1200/0.0.2560.1440@0.0.2560.1440" timestamp="1706357756038" />
+    <state width="2518" height="419" key="GridCell.Tab.1.bottom" timestamp="1706357756040">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2518" height="419" key="GridCell.Tab.1.bottom/556.1465.1194.809/2560.240.1920.1200/0.0.2560.1440@0.0.2560.1440" timestamp="1706357756040" />
+    <state width="2518" height="419" key="GridCell.Tab.1.center" timestamp="1706357756040">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2518" height="419" key="GridCell.Tab.1.center/556.1465.1194.809/2560.240.1920.1200/0.0.2560.1440@0.0.2560.1440" timestamp="1706357756040" />
+    <state width="2518" height="419" key="GridCell.Tab.1.left" timestamp="1706357756039">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2518" height="419" key="GridCell.Tab.1.left/556.1465.1194.809/2560.240.1920.1200/0.0.2560.1440@0.0.2560.1440" timestamp="1706357756039" />
+    <state width="2518" height="419" key="GridCell.Tab.1.right" timestamp="1706357756040">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2518" height="419" key="GridCell.Tab.1.right/556.1465.1194.809/2560.240.1920.1200/0.0.2560.1440@0.0.2560.1440" timestamp="1706357756040" />
+    <state x="1059" y="470" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1706272814614">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="1059" y="470" key="com.intellij.testIntegration.createTest.CreateTestDialog/556.1465.1194.736/2560.240.1920.1200/0.0.2560.1440@0.0.2560.1440" timestamp="1706272814614" />
+    <state x="726" y="294" key="new project wizard" timestamp="1706357291282">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="726" y="294" key="new project wizard/556.1465.1194.809/2560.240.1920.1200/0.0.2560.1440@0.0.2560.1440" timestamp="1706357291282" />
+    <state x="1065" y="482" key="refactoring.ChangeSignatureDialog" timestamp="1706273507244">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="1065" y="482" key="refactoring.ChangeSignatureDialog/556.1465.1194.809/2560.240.1920.1200/0.0.2560.1440@0.0.2560.1440" timestamp="1706273507244" />
+    <state x="945" y="331" width="670" height="676" key="search.everywhere.popup" timestamp="1706271404170">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="945" y="331" width="670" height="676" key="search.everywhere.popup/556.1465.1194.809/2560.240.1920.1200/0.0.2560.1440@0.0.2560.1440" timestamp="1706271404170" />
+  </component>
+</project>

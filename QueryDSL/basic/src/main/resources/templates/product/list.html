@@ -13,9 +13,9 @@
         table{
             margin: 0 auto;
         }
-        .none{
-            display: none;
-        }
+            .none{
+                display: none;
+            }
         ul{
             display: flex;
             list-style: none;
@@ -33,7 +33,11 @@
                 <td th:text="${product.productName}"></td>
                 <td th:text="${product.productPrice}"></td>
                 <td th:text="${product.productStock}"></td>
-                <td><a th:href="@{/product/detail(id=${product.id})}">상세 정보</a></td>
+                <td><a th:href="@{'/product/detail/' + ${product.id}}">상세 정보</a></td>
+                <td><form th:action="@{'/product/delete/' + ${product.id}}" method="post">
+                    <input type="hidden" name="_method" value="delete" />
+                    <button type="submit">삭제</button>
+                </form></td>
             </tr>
         </table>
         <ul th:with="
@@ -74,6 +78,24 @@
 </body>
 <script th:inline="javascript">
     console.log([[${pagination}]]);
+    function deleteProduct(productId) {
+        if (confirm("정말로 삭제하시겠습니까?")) {
+            fetch(`/delete/${productId}`, {
+                method: "DELETE"
+            })
+                .then(response => {
+                    if (response.ok) {
+                        // 삭제가 성공하면 다른 동작 수행 또는 페이지 리로드
+                        location.reload(); // 예시로 페이지 리로드
+                    } else {
+                        alert("삭제 실패");
+                    }
+                })
+                .catch(error => {
+                    console.error("삭제 요청 오류:", error);
+                });
+        }
+    }
 </script>
 
 </html>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="994b05c7-2ee7-49aa-9a3c-1c93942da074" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/QueryDSL/basic/src/main/resources/templates/product/list-async.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QueryDSL/basic/src/main/resources/templates/product/update.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QueryDSL/intermediate/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QueryDSL/intermediate/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QueryDSL/intermediate/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QueryDSL/intermediate/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QueryDSL/intermediate/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QueryDSL/intermediate/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QueryDSL/intermediate/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QueryDSL/intermediate/src/main/java/com/jpa/intermediate/IntermediateApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QueryDSL/intermediate/src/main/java/com/jpa/intermediate/config/QueryDSLConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QueryDSL/intermediate/src/main/java/com/jpa/intermediate/entity/Cart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QueryDSL/intermediate/src/main/java/com/jpa/intermediate/entity/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QueryDSL/intermediate/src/main/java/com/jpa/intermediate/entity/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QueryDSL/intermediate/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QueryDSL/intermediate/src/test/java/com/jpa/intermediate/IntermediateApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QueryDSL/MyApplication/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/QueryDSL/MyApplication/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/QueryDSL/MyApplication/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/QueryDSL/MyApplication/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/QueryDSL/MyApplication/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/QueryDSL/MyApplication/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/QueryDSL/MyApplication/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/QueryDSL/MyApplication/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/QueryDSL/MyApplication/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/QueryDSL/MyApplication/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/QueryDSL/MyApplication/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/QueryDSL/MyApplication/app/src/androidTest/java/com/example/myapplication/ExampleInstrumentedTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/QueryDSL/MyApplication/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/QueryDSL/MyApplication/app/src/main/java/com/example/myapplication/MainActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/QueryDSL/MyApplication/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/QueryDSL/MyApplication/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/QueryDSL/MyApplication/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/QueryDSL/MyApplication/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/QueryDSL/MyApplication/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/QueryDSL/MyApplication/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/QueryDSL/MyApplication/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/QueryDSL/MyApplication/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/QueryDSL/MyApplication/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/QueryDSL/MyApplication/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/QueryDSL/MyApplication/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/QueryDSL/MyApplication/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/QueryDSL/MyApplication/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/QueryDSL/MyApplication/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/QueryDSL/MyApplication/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/QueryDSL/MyApplication/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/QueryDSL/MyApplication/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/QueryDSL/MyApplication/app/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/QueryDSL/MyApplication/app/src/test/java/com/example/myapplication/ExampleUnitTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/QueryDSL/MyApplication/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/QueryDSL/MyApplication/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/QueryDSL/MyApplication/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/QueryDSL/MyApplication/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/QueryDSL/MyApplication/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/QueryDSL/MyApplication/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/QueryDSL/MyApplication/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/QueryDSL/basic/src/main/java/com/jpa/basic/BasicApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/QueryDSL/basic/src/main/java/com/jpa/basic/BasicApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QueryDSL/basic/src/main/java/com/jpa/basic/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/QueryDSL/basic/src/main/java/com/jpa/basic/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QueryDSL/basic/src/main/java/com/jpa/basic/entity/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/QueryDSL/basic/src/main/java/com/jpa/basic/entity/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QueryDSL/basic/src/main/java/com/jpa/basic/repository/ProductQueryDSL.java" beforeDir="false" afterPath="$PROJECT_DIR$/QueryDSL/basic/src/main/java/com/jpa/basic/repository/ProductQueryDSL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QueryDSL/basic/src/main/java/com/jpa/basic/repository/ProductQueryDSLImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/QueryDSL/basic/src/main/java/com/jpa/basic/repository/ProductQueryDSLImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QueryDSL/basic/src/main/java/com/jpa/basic/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/QueryDSL/basic/src/main/java/com/jpa/basic/service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QueryDSL/basic/src/main/java/com/jpa/basic/service/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/QueryDSL/basic/src/main/java/com/jpa/basic/service/ProductServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QueryDSL/basic/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/QueryDSL/basic/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QueryDSL/basic/src/main/resources/templates/product/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/QueryDSL/basic/src/main/resources/templates/product/detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QueryDSL/basic/src/main/resources/templates/product/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/QueryDSL/basic/src/main/resources/templates/product/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QueryDSL/basic/src/test/java/com/jpa/basic/repository/ProductRepositoryTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/QueryDSL/basic/src/test/java/com/jpa/basic/repository/ProductRepositoryTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/expert/src/main/java/com/jpa/expert/entity/inquire/Question.java" beforeDir="false" afterPath="$PROJECT_DIR$/expert/src/main/java/com/jpa/expert/entity/inquire/Question.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2WLG40d0dis4OVsegMaIEXbdAap" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="994b05c7-2ee7-49aa-9a3c-1c93942da074" name="Default Changelist" comment="" />
+      <created>1696504251790</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1696504251790</updated>
+      <workItem from="1696504259329" duration="29000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+</project>
